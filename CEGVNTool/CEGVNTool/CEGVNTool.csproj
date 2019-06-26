@@ -50,8 +50,7 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="01.01.01.TestClass.cs" />
-    <Compile Include="01.01.TestClass.cs" />
+    <Compile Include="00.01.01.TestClass.cs" />
     <Compile Include="App.cs" />
     <Compile Include="Command.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
