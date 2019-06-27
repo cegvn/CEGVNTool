@@ -40,23 +40,42 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="RevitAPI">
-      <HintPath>..\..\..\..\..\OneDrive\4Shared\RevitAPI.dll</HintPath>
+      <HintPath>D:\Revit 2018.2 SDK\RevitAPI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="RevitAPIUI">
-      <HintPath>..\..\..\..\..\OneDrive\4Shared\RevitAPIUI.dll</HintPath>
+      <HintPath>D:\Revit 2018.2 SDK\RevitAPIUI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Presentation" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="00.01.01.TestClass.cs" />
+    <Compile Include="16.00.0.Gen.cs" />
+    <Compile Include="16.76.1.FindImportInstanceCmd.cs" />
+    <Compile Include="16.76.2.FindImportInstance.cs" />
+    <Compile Include="16.76.3.FindImportInstanceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="16.76.3.FindImportInstanceForm.Designer.cs" />
     <Compile Include="App.cs" />
     <Compile Include="Command.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="CEGVNTool.addin" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="16.76.3.FindImportInstanceForm.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\CEGCustomMenu\Library\ReferenceProject\Newtonsoft.Json\Newtonsoft.Json.csproj">
+      <Project>{eeea67f9-9089-481d-a4dc-0966dec9fd7d}</Project>
+      <Name>Newtonsoft.Json</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
