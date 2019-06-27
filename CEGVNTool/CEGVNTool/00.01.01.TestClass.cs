@@ -8,5 +8,9 @@ namespace CEGVNTool
 {
     class _00
     {
+        public void Test01()
+        {
+
+        }
     }
 }
