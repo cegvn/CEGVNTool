@@ -71,12 +71,6 @@
   <ItemGroup>
     <EmbeddedResource Include="16.76.3.FindImportInstanceForm.resx" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="D:\CEGCustomMenu\Library\ReferenceProject\Newtonsoft.Json\Newtonsoft.Json.csproj">
-      <Project>{eeea67f9-9089-481d-a4dc-0966dec9fd7d}</Project>
-      <Name>Newtonsoft.Json</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>copy "$(ProjectDir)*.addin" "$(AppData)\Autodesk\REVIT\Addins\2018"

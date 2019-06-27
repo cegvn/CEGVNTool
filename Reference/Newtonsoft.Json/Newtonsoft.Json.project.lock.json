@@ -1,0 +1,42 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.5": {},
+    ".NETFramework,Version=v4.5/win": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "": [],
+    ".NETFramework,Version=v4.5": []
+  },
+  "packageFolders": {
+    "C:\\Users\\CEG User\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "restore": {
+      "projectUniqueName": "D:\\CEGCustomMenu\\Library\\ReferenceProject\\Newtonsoft.Json\\Newtonsoft.Json.csproj",
+      "projectName": "Newtonsoft.Json",
+      "projectPath": "D:\\CEGCustomMenu\\Library\\ReferenceProject\\Newtonsoft.Json\\Newtonsoft.Json.csproj",
+      "projectJsonPath": "D:\\CEGCustomMenu\\Library\\ReferenceProject\\Newtonsoft.Json\\Newtonsoft.Json.project.json",
+      "packagesPath": "C:\\Users\\CEG User\\.nuget\\packages\\",
+      "outputPath": "D:\\CEGCustomMenu\\Library\\ReferenceProject\\Newtonsoft.Json\\obj\\",
+      "projectStyle": "ProjectJson",
+      "configFilePaths": [
+        "C:\\Users\\CEG User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      }
+    },
+    "frameworks": {
+      "net45": {}
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      }
+    }
+  }
+}
